@@ -1,0 +1,23 @@
+.timer {
+  display: flex;
+}
+
+.field {
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  display: block;
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: italic;
+}
