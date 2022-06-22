@@ -16,3 +16,12 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  cursor: pointer;
+  min-width: 150px;
+  height: 60px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 24px;
+}
