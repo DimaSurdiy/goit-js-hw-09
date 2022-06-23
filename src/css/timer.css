@@ -1,3 +1,17 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button[data-start] {
+  min-width: 100px;
+}
+
+#datetime-picker {
+  height: 50px;
+  font-size: 24px;
+  max-width: 220px;
+}
+
 .timer {
   display: flex;
 }
@@ -19,5 +33,5 @@
 .label {
   font-size: 14px;
   text-transform: uppercase;
-  font-style: italic;
 }
+
